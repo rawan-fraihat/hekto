@@ -67,3 +67,7 @@ border: none;
 .no-outline{
     outline: none;
 }
+.flex-direction{
+    flex-direction: column;
+    align-items: flex-start;
+}
