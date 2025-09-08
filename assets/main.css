@@ -1,0 +1,30 @@
+.logo{
+    width: 98px;
+}
+.list{
+    margin-right: 100px;
+}
+a{
+    color: #0D0E43;
+}
+.header{
+    padding-top: 47px;
+    padding-bottom: 35px;
+    height: 40px;
+}
+.header input{
+    width: 317px;
+}
+.header button{
+    background-color: #FB2E86;
+    height: 35px;
+    width: 51px;
+}
+.search{
+    border:solid #E7E6EF 3px;
+    border-radius: 2px;
+    height: 40px;    
+}
+.list li:first-child a{
+    color:#FB2E86;
+}
