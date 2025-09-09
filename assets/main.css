@@ -2,7 +2,8 @@
     width: 98px;
 }
 .list{
-    margin-right: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .header a{
     color: #0D0E43;
@@ -11,6 +12,40 @@
     padding-top: 47px;
     padding-bottom: 35px;
     height: 40px;
+}
+@media screen and (max-width:768px) {
+ .header{
+    padding-top: 67px;
+}
+.header .search{
+    width:300px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 35px;
+}
+.header .list{
+    gap:20px;
+}
+}
+@media screen and (max-width:576px) {
+   .container{
+width:calc(100% - 20px);
+justify-content: center;
+} 
+.header{
+    padding-top: 100px;
+    gap:10px;
+}
+.header .search{
+    margin: auto;
+}
+footer{
+    margin-top: 50px;
+}
+.footer .right .items{
+    margin: 10px;
+    width: calc(100% - 20px);
+}
 }
 .header input{
     width: 317px;

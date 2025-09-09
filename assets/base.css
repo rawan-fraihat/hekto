@@ -25,6 +25,16 @@ justify-content: center;
 width:calc(100% - 80px);
 justify-content: center;
 } 
+.header .search{
+    width:200px;
+    height: 30px;
+}
+.header .search button{
+    height: 25px;
+}
+.header .list{
+    gap:15px;
+}
 .footer .right{
     width:calc((100% - 80px));
     text-align: center;
@@ -35,18 +45,9 @@ justify-content: center;
     justify-content: flex-start;
     align-items: center;
 }
+}
 
-}
-@media screen and (max-width:576px) {
-   .container{
-width:calc(100% - 20px);
-justify-content: center;
-} 
-.footer .right .items{
-    margin: 10px;
-    width: calc(100% - 20px);
-}
-}
+
 ul{
     list-style-type: none;
 }
