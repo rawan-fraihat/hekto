@@ -11,8 +11,41 @@ a{
     margin:auto;
 }
 .container{
-width:75%;
+width:calc(100% - 320px);
 justify-content: center;
+}
+@media screen and (max-width:1400px) {
+   .container{
+width:calc(100% - 200px);
+justify-content: center;
+} 
+}
+@media screen and (max-width:992px) {
+   .container{
+width:calc(100% - 80px);
+justify-content: center;
+} 
+.footer .right{
+    width:calc((100% - 80px));
+    text-align: center;
+}
+.footer .left{
+    width:calc((100% - 100px));
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+}
+@media screen and (max-width:576px) {
+   .container{
+width:calc(100% - 20px);
+justify-content: center;
+} 
+.footer .right .items{
+    margin: 10px;
+    width: calc(100% - 20px);
+}
 }
 ul{
     list-style-type: none;
