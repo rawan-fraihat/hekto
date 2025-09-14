@@ -135,3 +135,16 @@ margin-bottom:10px;
     text-align: center;
  }
 }
+/*end footer*/
+/*start clients*/
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.clients img{
+    width:100px;
+    height: 100px;
+}
+
+/*end clients*/

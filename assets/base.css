@@ -11,6 +11,7 @@ a{
     margin:auto;
 }
 .container{
+    display: flex;
 width:calc(100% - 320px);
 justify-content: center;
 }
@@ -104,4 +105,22 @@ border: none;
 .flex-direction{
     flex-direction: column;
     align-items: flex-start;
+}
+.padding-top1{
+padding-top: 5px;
+}
+.padding-top2{
+padding-top: 10px;
+}
+.padding-top3{
+padding-top: 15px;
+}
+.padding-top4{
+padding-top: 20px;
+}
+.padding-top5{
+padding-top: 25px;
+}
+.padding-top6{
+padding-top: 30px;
 }
