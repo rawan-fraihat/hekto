@@ -146,5 +146,41 @@ margin-bottom:10px;
     width:100px;
     height: 100px;
 }
-
 /*end clients*/
+/*start newslater*/
+.newslater{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url("../img/newslater.webp");
+    height: 460px;
+    justify-content: center;
+    align-items: center;
+}
+.newslater h2{
+    color:#151875;
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+}
+.newslater-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px; 
+    width: 500px;
+}
+.newslater button{
+    display: flex;
+    flex-direction: row;
+    background-color: #FB2E86;
+    height: 35px;
+    width: auto;
+    border-radius: 2px;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items:  center;
+}
+/*end newslater*/
+
