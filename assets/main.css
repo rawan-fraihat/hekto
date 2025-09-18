@@ -287,3 +287,58 @@ color:#FFFFFF;
     display: block;
 }
 /*end featured products*/
+/*start leatest products*/
+.leatest-products{
+    padding-top: 70px;
+}
+.leatest-products h2{
+color:#151875;
+text-align: center;
+font-size: 40px;
+padding-bottom: 20px;
+}
+.leatest-products .list{
+    color:#151875;
+    padding-bottom: 50px;
+}
+.list li:first-child a{
+    color:#FB2E86;
+    text-decoration:underline;
+}
+.leatest-products .top img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+}
+.leatest-products .leatest-icons img{
+    display: flex;
+    display: none;
+    width:20px;
+    height: 20px;
+}
+.product:hover .leatest-icons img{
+    display: block;
+}
+.leatest-products .leatest-icons{
+   margin-top: 100px;
+}
+.leatest-products .product .top{
+    background-color:#F7F7F7;
+    display: flex;
+    justify-content: center;
+}
+.leatest-products .product{
+    width:calc((100% - 120px) / 3);
+}
+.leatest-products .bottom{
+width:300px;
+color:#151875;
+padding-bottom: 50px;
+}
+.leatest-products .price-before{
+color:#F701A8;
+text-decoration: line-through;
+}
+
+/*end leatest products*/
