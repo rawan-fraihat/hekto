@@ -272,7 +272,7 @@ background-color: #F6F7FB;
 .product:hover .down{
 background-color: #2F1AC4;
 }
-.product:hover h3{
+.featured-products .product:hover h3{
 color:#FFFFFF;
 }
 .product .icons{
@@ -342,3 +342,35 @@ text-decoration: line-through;
 }
 
 /*end leatest products*/
+/*start Trending Products*/
+
+.trending-products h2{
+    color:#151875;
+    font-size: 40px;
+    font-family:Josefin Sans;
+}
+.trending-products h3{
+    color:#151875;
+    text-align: center;
+}
+.trending-products .price{
+    flex-direction: row;
+}
+.trending-products .product img{
+    object-fit: none;
+}
+.trending-products .product{
+    width:270px;
+}
+.trending-products .top{
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+}
+.trending-products .price2{
+    color:rgba(21, 24, 117, 0.30);
+    text-decoration: line-through;
+}
+/*end Trending Products*/
