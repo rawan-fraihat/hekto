@@ -397,3 +397,40 @@ padding-bottom: 20px;
     text-decoration: line-through;
 }
 /*end Trending Products*/
+/*start top categories*/
+.top-categories h2{
+    color:#151875;
+    font-size: 40px;
+    font-family:Josefin Sans;
+}
+.top-categories .view-shop{
+    display: flex;
+    padding:5px 10px 5px 10px;
+    justify-content: center;
+    background-color: #08D15F;
+    margin: auto;
+    width:85px;
+    display: none;
+    border: none;
+}
+.top-categories .top{
+    background-color: #F6F7FB;
+    border-radius: 50%;
+    padding: 40px;
+}
+.top-categories .mini:hover .view-shop{
+    display: block;
+}
+.top-categories .bottom{
+    color:#151875;
+}
+.top-categories .mini:hover .top{
+    box-shadow: -8px 5px 0 2px #7a5cf4;
+} 
+.top-categories .top img{
+    object-fit: none;
+}
+.top-categories {
+    padding-bottom: 150px;
+}
+/*end top categories*/
