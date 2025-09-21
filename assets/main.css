@@ -342,6 +342,29 @@ text-decoration: line-through;
 }
 
 /*end leatest products*/
+/*start what shopex offer*/
+.what-shopex-offer h2{
+color:#151875;
+font-size: 40px;
+padding-bottom: 20px;
+}
+.what-shopex-offer .offer{
+    width:270px;
+    height: 320px;
+}
+.what-shopex-offer .offer img{
+    width:65px;
+    height: 65px;
+}
+.what-shopex-offer .offer h3{
+    font-size: 20px;
+    color:#151875;
+}
+.what-shopex-offer .offer p{
+    color:rgba(26, 11, 91, 0.30);
+    width:200px;
+}
+/*end what shopex offer*/
 /*start Trending Products*/
 
 .trending-products h2{
