@@ -66,6 +66,11 @@ footer{
 .list li:first-child a{
     color:#FB2E86;
 }
+/*hero section*/
+.hero-img img{
+    width: 100%;
+}
+/*end hero section*/
 /*start footer*/
 .footer button{
     background-color: #FB2E86;
