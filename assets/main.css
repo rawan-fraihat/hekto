@@ -67,8 +67,46 @@ footer{
     color:#FB2E86;
 }
 /*hero section*/
-.hero-img img{
-    width: 100%;
+.hero-background{
+    background-color: #F2F0FF;
+}
+.hero-section{
+    display: flex;
+    gap: 80px;
+}
+.hero-section .left{
+    width:500px;
+}
+.hero-section button{
+    display: flex;
+    background-color: #FB2E86;
+    height: 35px;
+    border-radius: 2px;
+    padding: 15px;
+    justify-content: left;
+}
+.hero-section .p1{
+    color:#FB2E86;
+    font-size:16px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+.hero-section h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.hero-section .p2{
+    color:#8A8FB9;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.hero-section .right img{
+    width: 500px;
+    height: 500px;
+}
+.hero-section .right{
+    padding-top: 39px;
+    padding-bottom: 39px;
 }
 /*end hero section*/
 /*start footer*/
