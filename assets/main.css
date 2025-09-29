@@ -441,12 +441,11 @@ padding-bottom: 20px;
     background-color:#F7F7F7;
     display: flex;
     justify-content: center;
+    width:300px;
 }
-.leatest-products .products .product{
-    width:250px;
-}
+
 .leatest-products .bottom{
-width:250px;
+width:300px;
 color:#151875;
 padding-bottom: 50px;
 }
